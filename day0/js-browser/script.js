@@ -1,5 +1,11 @@
 // injected in index.html
-const myVariable = "Hello World!";
-alert("This is a message");
 
-console.log(myVariable);
+// document.getElementsByClassName("main-div").setClassName("main-text");
+
+const newDiv = document.createElement("div");
+
+newDiv.setClassName("main-text");
+console.log("NewDiv : ", newDiv);
+const body = document.querySelector("body");
+
+body.appendChild(newDiv);
