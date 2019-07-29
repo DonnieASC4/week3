@@ -1,0 +1,69 @@
+body {
+  width: 900px;
+  height: 750px;
+  background-color: darkblue;
+  color: lightgoldenrodyellow;
+}
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font: 32px arial;
+}
+
+hr {
+  size: "2";
+  color: lightgoldenrodyellow;
+}
+
+#button-group {
+  align-self: center;
+  /* display: none; */
+  /* position: fixed; */
+  bottom: 30px;
+  right: 30px;
+  /* z-index: 100; */
+  border: none;
+  outline: none;
+  background-color: #ff9100;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#button-group:hover {
+  background-color: #4ca6f0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pair-card {
+  width: 170px;
+  height: 140px;
+  border: 2px solid #ff9100;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 5px;
+}
+
+.pair-title {
+  font: 30px arial;
+  margin: 3px;
+  padding: 3px;
+}
+
+.pair-names {
+  display: flex;
+  flex-direction: column;
+  font: 26px arial;
+  color: #ff9100;
+  margin-left: 30px;
+}
