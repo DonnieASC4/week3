@@ -26,3 +26,26 @@
 	fight another specific given number of dragons, will he survive?
 	Return True if yes, False otherwise :)
 */
+
+//===============================================
+
+// Find the Longest Word in a string
+/*
+  Create a function called findLongestWordLength that takes in one parameter, named str.
+  That is a string.
+  Return the length of the longest word in a sentence.
+  Example: findLongestWordLength("The quick brown fox jumped over the lazy dog");
+    Should return: 6
+    Because jumped is the longest word in the sentence.
+*/
+
+//===============================================
+// Truncate a String
+/*
+  Create a function named truncateString that takes in two parameters, one named
+  str (expect this to be a string) and another named num (expect this to be a number).
+  Truncate (shorten) a string (first argument) if it is longer than the given maximum string 
+  length (second argument).Return the new string.
+  Example: truncateString("Peter Piper", 5);
+    Should return: 'Peter'
+*/

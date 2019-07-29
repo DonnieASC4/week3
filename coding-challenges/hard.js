@@ -33,3 +33,30 @@
 			DNAtoRNA("GCAT") returns ("GCAU")
 			The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 */
+
+//===============================================
+// Mutations
+/*
+  Create a function called mutations that accept one parameter, arr (this should be an
+    array of two elements both being strings). Return true because all of the letters 
+    in the second string are present in the first, ignoring case.
+    Examples:
+      mutation(["hello", "hey"]) should return false.
+      mutation(["hello", "Hello"]) should return true.
+      mutation(["hello", "Hl"]) should return true.
+      mutation(['hello', 'hlllll']); should return true.
+      mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]) should return true.
+      mutation(["voodoo", "no"]) should return false.
+*/
+
+//===============================================
+// Missing Letters
+/*
+    Create a function called fearNotLetter that accepts one parameter, str
+    (of type string). Find the missing letter in the passed letter range and return it.
+    If all letters are present in the range, return undefined.
+    Examples:
+      fearNotLetter("abce") should return "d" because it's missing in the sequence.
+      fearNotLetter("abcdefghjklmno") should return "i" because it's missing in the sequence.
+      fearNotLetter("bcdf") should return "e" because it's missing in the sequence.
+*/
